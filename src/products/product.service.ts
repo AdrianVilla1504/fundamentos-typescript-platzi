@@ -1,8 +1,8 @@
 import { Product } from './product.model';
 
-const products: Product[] = [];
+export const products: Product[] = [];
 
-const addProduct = (data: Product) => {
+export const addProduct = (data: Product) => {
   products.push(data);
 };
 
